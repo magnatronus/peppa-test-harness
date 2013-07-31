@@ -1,0 +1,14 @@
+<Alloy>
+	<TabGroup>
+		<Tab title="User" icon="KS_nav_ui.png">
+			<Window title="User API">
+				<Widget id="userWidget" src="userHarness" />
+			</Window>
+		</Tab>
+		<Tab title="Objects" icon="KS_nav_views.png">
+			<Window title="Object API">				
+				<Widget id="objectWidget" src="objectHarness" />
+			</Window>
+		</Tab>
+	</TabGroup>
+</Alloy>

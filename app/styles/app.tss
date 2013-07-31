@@ -1,0 +1,12 @@
+".formTextField":{
+	top:10,
+	height: 40,
+	width: 250,
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED
+},
+".formButton":{
+	top:10,
+	height: 40,
+	width: 250,
+	color: '#004080'
+}

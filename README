@@ -1,0 +1,11 @@
+# Peppa REST API test harness
+
+This is a barebones  Appcelerator Titanium project that uses my Peppa REST API, a module for Drupal 7.
+
+The test harness is written using Alloy and has a widget for each API functional set.i.e. one for the user functionality and one for the object functionality.
+
+This is not meant to be an example Alloy project, but a way of testing the Peppa API from a mobile device.
+
+## Documentation
+- [More info on the Peppa module for Drupal 7](http://www.spiralarm.co.uk/peppa)
+- [PDF of the current REST API](http://www.spiralarm.co.uk/wp-content/uploads/2013/07/PeppaRESTAPI.pdf)

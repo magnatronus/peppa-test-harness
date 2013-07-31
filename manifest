@@ -1,0 +1,9 @@
+#appname:PeppaHarness
+#appid:uk.co.spiralarm.ph
+#type:mobile
+#guid:88c55201-8fd1-4b9c-8f27-5fe69728072a
+#version:1.0
+#publisher:SpiralArm Consulting Ltd
+#url:http://www.spiralarm.co.uk
+#image:appicon.png
+#desc:An example test harness for the Peppa Druapl 7 module

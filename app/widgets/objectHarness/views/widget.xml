@@ -1,0 +1,18 @@
+<Alloy>
+	<View  backgroundColor="gray">
+		
+ 		<TableView id="objectList" bottom="45" onDelete="deleteRow"  onLongpress="updateRow"/>
+
+      	<Toolbar platform="ios" bottom="0" borderTop="true" borderBottom="false">
+            <Items>
+                <Button id="createBtn" systemButton="Ti.UI.iPhone.SystemButton.ADD"   onClick="createObject"/>
+               <FlexSpace/>
+                <Button id="refreshBtn" systemButton="Ti.UI.iPhone.SystemButton.REFRESH"  onClick="getObjects" />
+                <FlexSpace/>
+                <Button id="editBtn" title="Edit" style="Ti.UI.iPhone.SystemButtonStyle.DONE"  onClick="toggleTableEdit" />
+             </Items>
+       	</Toolbar>
+ 	
+		
+	</View>
+</Alloy>

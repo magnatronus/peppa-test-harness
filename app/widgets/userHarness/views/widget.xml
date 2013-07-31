@@ -1,0 +1,10 @@
+<Alloy>
+	<ScrollView layout="vertical">
+		<TextField id="username" class="formTextField" hintText="username"  onChange="checkLoginStatus" />
+		<TextField id="password" class="formTextField" hintText="password"  passwordMask="*" onChange="checkLoginStatus"/>
+		<TextField id="email" class="formTextField" hintText="email address" autocapitalization="false" keyboardType="Ti.UI.KEYBOARD_EMAIL" onChange="checkLoginStatus"/>
+		<Button id="createBtn" class="formButton" title="Create Account" onClick="createAccount" enabled="false"/>
+		<Button id="loginBtn" class="formButton" title="Login" onClick="userLogin" enabled="false"/>
+		<Button id="logoutBtn" class="formButton" title="Logout" onClick="userLogout" enabled="false"/>
+	</ScrollView>
+</Alloy>
